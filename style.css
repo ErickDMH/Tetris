@@ -1,0 +1,35 @@
+:root {
+  --main-bg-color: yellow;
+  --main-t4-color: violet;
+}
+
+.container{
+ display: flex;
+}
+.grid {
+  width:  200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--main-bg-color);
+}
+.grid div {
+  width:  20px;
+  height: 20px;
+}
+.tetromino{
+  background-color: var(--main-t4-color);
+}
+
+.mini-grid {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--main-bg-color);
+  margin-left: 50px;
+}
+.mini-grid div {
+  width:  20px;
+  height: 20px;
+}
