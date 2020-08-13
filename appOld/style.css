@@ -16,6 +16,7 @@
 .grid div {
   width:  20px;
   height: 20px;
+  /* border: 1px solid var(--main-t4-color); */
 }
 .tetromino{
   background-color: var(--main-t4-color);
